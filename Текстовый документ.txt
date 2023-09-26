@@ -1,0 +1,37 @@
+-- Select *
+-- from Employees
+-- where job_id = 'FI_ACCOUNT'
+
+
+-- Select *
+-- from Employees
+-- where salary < 12000;
+
+-- Select *
+-- from Employees 
+-- where department_id in (70,80,100);
+
+-- Select *
+-- from Employees
+-- where first_name like 'D%'
+
+
+-- Select *
+-- from Employees
+-- where employee_id >= 108 and employee_id <= 143
+ 
+
+ -- Select first_name,last_name
+ -- from Employees
+ -- where phone_NUMERIC like '590%'
+
+
+-- select salary,job_id
+ -- from Employees
+ -- where salary > 1000 and job_id like 'IT_PROG' and phone_NUMERIC like '%590%';
+
+
+ -- select first_name,last_name,salary
+ -- from Employees
+ -- where salary between  8000 and 10000 and commission_pct is not null
+ 
