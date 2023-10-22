@@ -15,9 +15,7 @@ inner join orders t2
 on t1.CUST_ID = t2.CUST_ID
 where t2.amt >1000;
 
-SELECT
-    C.CNAME AS customer_name,
-    S.SNAME AS seller_name
-FROM ORDERS O
-INNER JOIN CUSTOMERS C ON O.CUST_ID = C.CUST_ID
-INNER JOIN SELLERS S ON O.SELL_ID = S.SELL_ID;
+
+SELECT c.cname, s.sname
+FROM customers c
+INNER JOIN sellers s ON c.city <> s.city;
